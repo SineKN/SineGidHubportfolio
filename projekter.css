@@ -1,0 +1,346 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+Body {
+  background-image: url(himmel.png);
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  font-size: 2.3vh;
+  style: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 5em;
+  margin-bottom: 0em;
+  margin-left: 3em;
+  color: black;
+  text-align: left;
+  line-height: 0px;
+}
+
+.indledning-kommunikation {
+  font-size: 1.8vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-top: 0em;
+  margin-left: 4.1em;
+  margin-right: 10em;
+  color: black;
+  text-align: left;
+  line-height: 30px;
+}
+
+.tyk {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/* .kant2 {
+  position: absolute;
+  margin-left: 25em;
+} */
+
+.Emner {
+  text-decoration: none;
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: -2em;
+  bottom: -2px;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  width: 60%;
+  text-align: right;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14.5px;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 32px;
+  height: 4px;
+  background-color: white;
+  margin: 2px;
+  transition: all 0.3s ease;
+}
+
+
+@media screen and (min-width:414px) {
+  .kant {
+    margin-left: 45px;
+  }
+
+  .indledning-kommunikation {
+    width: 90%;
+    margin: 0 0 0 18px;
+  }
+
+  .billeder-samlet {
+    justify-content: space-around;
+    margin-left: auto;
+    align-items: center;
+  }
+  video {
+  width: 100%;
+  height: auto;
+}
+
+  h2 {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    justify-content: space-around;
+    line-height: 30px;
+    width: 80%;
+    margin: 21px 5px 21px 18px;
+    text-align: left;
+  }
+
+  .kant {
+    position: absolute;
+    top: 100px;
+    right: 5px;
+    width: 20%;
+    height: auto;
+  }
+
+  .streg {
+    text-decoration: none;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .kant3 {
+    width: 100%;
+    margin-left: 22px;
+    height: auto;
+  }
+
+  .kant4 {
+    width: 90%;
+    margin-left: 22px;
+    height: auto;
+  }
+
+  .kant5 {
+    width: 90%;
+    margin-left: 22px;
+    height: auto;
+  }
+
+@media screen and (min-width: 1024px){
+    .nav-links {
+      width: 60%;
+    }
+
+    /* Billeder */
+    .kant3 {
+         width: 60%;
+         height: auto;
+         margin-top: 125px;
+       }
+
+       .kant4 {
+         width: 50%;
+         height: auto;
+         margin-left: 150px;
+         margin-top: 125px;
+       }
+
+
+       /* } tilbage til toppen  */
+       .kant11 {
+         width: 25%;
+         height: auto;
+         margin-left: 30px;
+       }
+       .kant {
+      position: absolute;
+      top: 100px;
+      right: 5px;
+      width: 15%;
+      height: auto;
+    }
+
+    #vid {
+        margin: 0 auto;
+        max-width: 35%;
+    }
+
+       .billeder-samlet {
+         justify-content: space-around;
+         display: flex;
+       }
+
+       /* billeder slut */
+
+
+    /* .streg {
+      text-decoration: underline;
+      margin-bottom: 4px;
+    } */
+
+
+
+    h2 {
+      font-weight: 400;
+      text-align: left;
+      margin-top: 45px;
+      margin-bottom: 22px;
+      margin-left: 70px;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .indledning-kommunikation {
+      font-weight: 400;
+      margin: -10px 0px 5px 50px;
+      font-family: "Montserrat", sans-serif;
+      line-height: 35px;
+    }
+
+    cite {
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    .kant {
+      margin-left: 45px;
+    }
+
+    .indledning-kommunikation {
+      width: 100%;
+      margin: 0 0 0 18px;
+    }
+
+    .billeder-samlet {
+      justify-content: space-around;
+      margin-left: auto;
+      align-items: center;
+    }
+    video {
+    width: 1200%;
+    height: auto;
+  }
+
+    h2 {
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+      justify-content: space-around;
+      line-height: 30px;
+      width: 80%;
+      margin: 21px 5px 21px 18px;
+      text-align: left;
+    }
+
+    .kant {
+      position: absolute;
+      top: 100px;
+      right: 5px;
+      width: 20%;
+      height: auto;
+    }
+
+    .streg {
+      text-decoration: none;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .kant3 {
+      width: 100%;
+      margin-left: 22px;
+      height: auto;
+    }
+
+    .kant4 {
+      width: 90%;
+      margin-left: 22px;
+      height: auto;
+    }
+
+    .kant5 {
+      width: 90%;
+      margin-left: 22px;
+      height: auto;
+    }
+
+    .kant6 {
+      width: 90%;
+      margin-left: 22px;
+      height: auto;
+    }
+
+    .kant7 {
+      width: 90%;
+      margin-left: 22px;
+      height: auto;
+    }
+
+    .kant8 {
+      width: 90%;
+      margin-left: 22px;
+      height: auto;
+    }
+
+}

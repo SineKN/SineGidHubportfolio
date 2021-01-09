@@ -1,130 +1,232 @@
-*{
- margin: 0px;
-    padding: 0px;
-    box-sizing:border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-Body{
-background-image:url(flamingo.png);width: 100%; height: 100%;
+Body {
+  background-image: url(himmel.png);
+  width: 100%;
+  height: 100%;
 
 }
-h2{
-    font-size: 3vh;
-    style:bold;
-    font-family: "Montserrat";
-    font-weight: 500;
-    letter-spacing: 2px;
-    margin-top: 5em;
-    margin-bottom: 0em;
-    margin-left: 3em;
-    color:#black;
-    text-align:left;
-    line-height: 0px;
 
-    }
+h2 {
+  font-size: 2.3vh;
+  style: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 5em;
+  margin-bottom: 0em;
+  margin-left: 3em;
+  color: black;
+  text-align: left;
+  line-height: 0px;
+}
 
-    .indledning-kommunikation{
-      font-size: 2.2vh;
-      font-family: "Montserrat";
-      font-weight:400;
-      letter-spacing: 0.2px;
-      margin-top: 0em;
-      margin-left: 4.1em;
-      margin-right: 10em;
-      color:black;
-      text-align:left;
-      line-height: 25px;
+.indledning-kommunikation {
+  font-size: 1.8vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-top: 0em;
+  margin-left: 4.1em;
+  margin-right: 10em;
+  color: black;
+  text-align: left;
+  line-height: 25px;
+}
 
-    }
-.tyk{
+.tyk {
   font-family: "Montserrat";
   font-weight: 500;
 }
-nav{
+
+nav {
   display: flex;
-     justify-content: space-around;
-     align-items:center;
-     min-height: 10vh;
-     background-color: black;
-     font-family:verdana;
-
-
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
-.kant{
-position: absolute;
-top: 150px;
-right: -10px;
-}
-
-.kant2{
+.kant {
   position: absolute;
-  margin-left: 25em;
-}
-.kant3{
-  position: absolute;
-  margin-left: 45px;
+  top: 150px;
+  right: -10px;
 }
 
-.Emner{
-text-decoration:none;
-justify-content: space-around;
-display: flex;
-margin-bottom: -2em;
-bottom: -2px;
+.Emner {
+  text-decoration: none;
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: -2em;
+  bottom: -2px;
 }
 
-
-.logo{
-    color:#white;
-    text-transform:uppercase;
-    letter-spacing: 3px;
-    font-size: 12px;
-    margin-bottom: -5em;
-    margin-top: -6em;
-
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin-left: 15px;
 }
-.nav-links{
-    display:flex;
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  width: 60%;
+  text-align: right;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14.5px;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 32px;
+  height: 4px;
+  background-color: white;
+  margin: 2px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width:414px) {
+  .kant {
+    margin-left: 45px;
+  }
+
+  .indledning-kommunikation {
+    width: 90%;
+    margin: 0 0 0 18px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
     justify-content: space-around;
-    font-family: "Montserrat"
-    font-size:12px;
+    line-height: 30px;
+    width: 80%;
+    margin: 21px 5px 21px 18px;
+    text-align: left;
+  }
+
+  .kant {
+    position: absolute;
+    top: 100px;
+    right: 5px;
+    width: 20%;
+    height: auto;
+  }
+
+  .streg {
+    text-decoration: none;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .kant3 {
+    width: 70%;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 21px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .nav-links {
     width: 60%;
-    text-align: right;
+  }
+
+  .kant1 {
+    width: 37%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 2px;
+  }
+
+  .kant2 {
+    width: 20%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 2px;
+  }
+  .kant3 {
+    width: 30%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 2px;
+  }
+  .kant4 {
+    width: 25%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 2px;
+  }
+/* } tilbage til toppen  */
+.kant11 {
+  width: 25%;
+  height: auto;
+  margin-left: 50px;
+}
+
+  .streg {
+    text-decoration: underline;
+  }
+
+  .kant {
+    position: absolute;
+    top: 100px;
+    right: 5px;
+    width: 15%;
+    height: auto;
+  }
 
 
-}
-.nav-links li{
-list-style: none;
-}
-.nav-links a{
-    color:white;
-    text-decoration:none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14.5px;
-}
-.burger{
-    display:none;
+  h2 {
+    font-weight: 400;
+    text-align: left;
+    margin-top: 45px;
+    margin-bottom: 22px;
+    margin-left: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
 
-}
-.burger div{
-    width: 32px;
-    height: 4px;
-    background-color:white;
-    margin: 2px;
-    transition: all 0.3s ease;
+  .indledning-kommunikation {
+    font-weight: 400;
+    margin: -10px 0px 5px 50px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 35px;
+  }
 
+  cite {
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+  }
 }
-}
-@media screen and (max-width:1024px){
-    .nav-links{
-        width: 60%;
 
-    }
-
-}
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     body{
         overflow-x: hidden;
 
@@ -141,50 +243,4 @@ h2{
   margin-right: 12em;
   margin-left: 0.5em;
 }
-  .nav-links{
-      position: absolute;
-      right: 0;
-      height: 65vh;
-      top: 22vh;
-      background-color:black;
-      display:flex;
-      flex-direction: column;
-      align-items: left;
-      width: 50%;
-      transform: translateX(100%);
-      transition: transform 0.4s ease-in;
-
-  }
-  .nav-links li{
-      opacity: 0;
-      margin: auto;
-}
-  .burger{
-      display:block;
-    }
-
-    }
-    .nav-active{
-        transform: translateX(0%);
-}
-@keyframes navLinkFade{
-  from{
-    opacity: 0;
-    transform: translateX(50px);
-
-}
-to{
-  opacity: 1;
-  transform: translateX(0px);
-}
-
-}
-.toggle .line1{
-  transform: rotate(-45deg) translate(-5px,6px);
-}
-.toggle .line2{
-  opacity: 0;
-}
-.toggle .line3{
-  transform: rotate(45deg) translate(-5px,-6px);
-}
+} */
